@@ -1,12 +1,9 @@
-// const sectionTodo = document.querySelector(".section-todo");
-// console.log(sectionTodo.classList);
-// sectionTodo.classList.add('bg-dark');
-// sectionTodo.classList.remove("container");
-// const ans = sectionTodo.classList.contains("container");
-// console.log(ans);
-// sectionTodo.classList.toggle("bg-dark");
-// sectionTodo.classList.toggle("bg-dark");
-const header = document.querySelector(".header");
+// const section = document.querySelector(".section-todo");
+// console.log(section.classList);
+// section.classList.add("bg-dark");
+// section.classList.toggle("bg-dark");  this will add class if there is no class and if there is call it will remove.
 
-// header.classList.add("bg-dark");
-console.log(header.classList);
+const header = document.querySelector(".header");
+console.log(header)
+
+

@@ -1,8 +1,8 @@
-const ul = document.querySelector(".todo-list");
-const listItems = ul.getElementsByTagName("li");
+// static vs live list 
 
-const sixthLi = document.createElement("li");
-sixthLi.textContent = "item 6";
-
-ul.append(sixthLi);
-console.log(listItems);
+const liItems=document.querySelector(".todo-list");
+const sixthli=document.createElement("li");
+sixthli.textContent="item 6";
+const ul=document.querySelector(".todo-list");
+ul.append(sixthli);
+console.log(liItems)

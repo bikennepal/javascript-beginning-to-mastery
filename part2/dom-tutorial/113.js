@@ -9,5 +9,5 @@ const todoList = document.querySelector(".todo-list");
 // todoList.innerHTML += "<li>New Todo </li>";
 // todoList.innerHTML += "<li>teach students </li>";
 
-// when you should use it , when you should not
-todoList.insertAdjacentElement("afterbegin", '<li>Hi</li>')
+// when you should use it , when you should not we should not use innerhtml as it will cause performance issue
+// todoList.insertAdjacentElement("afterbegin", '<li>Hi</li>')  

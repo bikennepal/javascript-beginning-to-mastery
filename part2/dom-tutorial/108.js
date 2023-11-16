@@ -1,7 +1,9 @@
 // get multiple elements using getElements by class name 
 // get multiple elements items using querySelectorAll
-// const navItems = document.getElementsByClassName("nav-item"); // HTMLCollection
-// console.log(navItems);
-// console.log(Array.isArray(navItems));
-// const navItems = document.querySelectorAll(".nav-item"); // NodeList
-// console.log(navItems[1]);
+// const items=document.getElementsByClassName("nav-item") //HTMl collection
+// console.log(items[0])
+// console.log(Array.isArray(items))
+// const items=document.querySelectorAll(".nav-item") // node-list
+// console.log(items)
+
+

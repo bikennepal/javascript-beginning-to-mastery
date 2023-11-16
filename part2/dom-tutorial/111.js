@@ -1,4 +1,5 @@
 // const rootNode = document.getRootNode();
+// console.log(rootNode);
 // const htmlElementNode = rootNode.childNodes[0];
 // // console.log(htmlElementNode.childNodes); NodeList(3) [head, text, body]
 // const headElementNode = htmlElementNode.childNodes[0];
